@@ -7,6 +7,7 @@ public class FileReaderEx {
     public static void main(String[] args) {
         try (FileReader fileReader = new FileReader("article.txt")) {
             int characters = 0;
+
             while ((characters = fileReader.read()) != -1) {
                 // -1 это когда конец файла
                 System.out.print((char) characters);
