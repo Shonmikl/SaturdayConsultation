@@ -1,10 +1,10 @@
-package saturday.inputOutput;
+package saturday._22102022.inputOutput;
 
 import java.io.FileWriter;
 import java.io.IOException;
 
 public class FileWriterEx {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         //абсолютный и относительный путь
         String s = "This is one of many comments floating around the " +

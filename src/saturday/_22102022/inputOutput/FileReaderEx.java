@@ -1,4 +1,4 @@
-package saturday.inputOutput;
+package saturday._22102022.inputOutput;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.IOException;
 public class FileReaderEx {
     public static void main(String[] args) {
         try (FileReader fileReader = new FileReader("article.txt")) {
-            int characters = 0;
+            int characters;
 
             while ((characters = fileReader.read()) != -1) {
                 // -1 это когда конец файла
