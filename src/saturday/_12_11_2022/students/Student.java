@@ -1,4 +1,4 @@
-package saturday._12112022.students;
+package saturday._12_11_2022.students;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
