@@ -7,6 +7,7 @@ import java.util.concurrent.Exchanger;
 public class ExchangerEx {
     public static void main(String[] args) {
         Exchanger<Action> exchanger = new Exchanger<>();
+
         List<Action> friendsAction = new ArrayList<>();
         friendsAction.add(Action.PAPER);
         friendsAction.add(Action.PAPER);
