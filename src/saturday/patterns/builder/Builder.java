@@ -12,19 +12,19 @@ class PersonBuilder implements Builder {
 
     @Override
     public Builder setName(String name) {
-        person.name = name;
+        person.setName(name);
         return this;
     }
 
     @Override
     public Builder setAge(int age) {
-        person.age = age;
+        person.setAge(age);
         return this;
     }
 
     @Override
     public Builder setSalary(double salary) {
-        person.salary = salary;
+        person.setSalary(salary);
         return this;
     }
 
